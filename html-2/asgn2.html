@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Assignment 2</title>
+    <style>
+        .reg-form {
+            border: 1px solid lightgray;
+            border-radius: 14px;
+            margin: 30px auto;
+            width : 344px;
+            padding: 10px;
+        }
+        h3{
+            text-align: center;
+        }
+        .table-details{
+            margin: 40px auto;
+            width : 244px
+        }
+        .form-body{
+            text-align: center;
+        }
+        .form-element{
+           margin: 10px auto;
+        }
+        .btn{
+            width: 100%;
+            background-color: black;
+            padding: 10px ;
+            border: none;
+            border-radius:20px;
+            color: white; 
+        }
+
+        .back-btn{
+            width: 100px;
+            background-color: black;
+            padding: 10px ;
+            border: none;
+            border-radius:20px;
+            color: white;
+            position:fixed;
+            top: 10px;
+            right:10px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .text-field{
+            width: 100%;
+            padding: 16px;
+            box-sizing: border-box;
+            border-radius: 14px;
+            border: 1px solid lightgray;
+            margin-top: 10px;
+        }
+      
+    </style>
+</head>
+<body>
+    <a class="back-btn" href="../index.html">Home Page</a>
+    <h1 style = "text-align: center;">Welcome to HTML Assignment Part 2</h1>
+
+    <div class="table-details">
+        <h3>Fruit Detail Chart</h3>
+        <table border>
+            <tr>
+                <th>Sr No</th>
+                <th>Name</th>
+                <th>Colour</th>
+                <th>Taste</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Mango</td>
+                <td>Yellow</td>
+                <td>Sweet</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Grapes</td>
+                <td>Purple</td>
+                <td>Sweet</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Jackfruit</td>
+                <td>Green</td>
+                <td>Sweet</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Apple</td>
+                <td>Red</td>
+                <td>Sweet</td>
+            </tr>
+        </table>
+    </div>
+    <div style="margin: 30px auto;width : 744px">
+        <h3>Description of 5 Must Visit Placesa in India</h3>
+        <ul>
+            <li><p>Taj Mahal, Agra - A timeless symbol of love and one of the Seven Wonders of the World.</p></li>
+            <li><p>Jaipur, Rajasthan - A vibrant city known for its royal palaces, forts, and rich cultural heritage.</p></li>
+            <li><p>Kerala Backwaters - A serene network of canals and lagoons offering a peaceful houseboat experience.</p></li>
+            <li><p>Varanasi, Uttar Pradesh - One of the world’s oldest living cities, famous for its spiritual aura and Ganga Aarti.</p></li>
+            <li><p>Ladakh, Jammu & Kashmir - A high-altitude desert offering stunning landscapes, monasteries, and adventure.</p></li>
+        </ul>
+    </div>
+    <div  style="margin: 30px auto;width : 744px">
+        <h3>Top 3 Priorities for the week</h3>
+        <ol>
+            <li><p>This week, the top three priorities for learning front-end development are focused on building a strong foundation. First, it's important to master HTML structure and semantics by understanding how to organize a web page using proper tags and elements.</p></li>
+            <li><p>Second, learning the basics of CSS will help in styling the HTML content, including working with colors, fonts, layout techniques, and the box model.</p></li>
+            <li><p>Third, getting started with JavaScript will allow you to add interactivity to your web pages, such as handling user inputs and simple events. Focusing on these three areas will set a solid base for more advanced front-end skills in the future.</p></li>
+        </ol>
+    </div>
+    <div class = "reg-form">
+        <h3>Registration Form</h3><br>
+        <div class="form-body">
+            <form action="">
+                <div class="form-element">
+                    <label class="form-label" class="form-label" for="username">User Name</label>
+                    <input class ="text-field" type="text" name="username" minlength="3" maxlength="50" placeholder="Enter User Name">
+                </div>
+                <div class="form-element">
+                    <label class="form-label" for="username">Email</label>
+                    <input class ="text-field" type="email" name="email" placeholder="Enter Email">
+                </div>
+              
+                <div class="form-element">
+                    <label class="form-label" for="Gender">Gender</label><br><br>
+                    <label class="form-label" for="Male">Male</label> : <input type="radio" name="gender" value = "Male" required>
+                    <label class="form-label" for="Female">Female</label> : <input type="radio" name="gender" value = "Female" required>
+                </div>
+    
+                <div class="form-element">
+                    <label class="form-label" for="age">Age</label>
+                <select class ="text-field" name="age">
+                    <option value="-1">-- Select Age --</option>
+                    <option value="18">18 to 24 Years</option>
+                    <option value="25">25 to 29 Years</option>
+                    <option value="30">30 to 34 Years</option>
+                    <option value="35">35 Years & More..</option>
+                </select>
+                </div>
+    
+                <div class="form-element">
+                    <label class="form-label" for="newsletter">Opt for News Letter</label>
+                    <ul style=" list-style-type: none;">
+                        <li> 
+                            <label class="form-label" >Tech News</label>
+                            <input type="checkbox" name="technews">
+                        </li>
+                        <li>
+                            <label class="form-label" >Sports News</label>
+                            <input type="checkbox" name="sportsnews">
+                        </li>
+                        <li>
+                            <label class="form-label" >Entertainment News</label>
+                            <input type="checkbox" name="entertainmentnews">
+                        </li>
+                        <li>
+                            <label class="form-label" >Scifi News</label>
+                            <input type="checkbox" name="scifinews">
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="form-element">
+                    <input class="btn" type="submit">Submit</button>
+                </div>
+
+            </form>
+           
+         
+        </div>
+    </div>
+ 
+     
+    
+</body>
+</html>
