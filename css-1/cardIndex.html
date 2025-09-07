@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Assignment</title>
+    <style>
+        .card{
+            width:100px;
+            border : 1px solid lightgray;
+            border-radius:14px;
+            background-color: rgb(150, 146, 146);
+            text-align: center;
+            padding : 20px
+        }
+        
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .cards{
+            display: flex;
+            gap:20px;
+            justify-content: space-between;
+            margin: 30px auto;
+            width : 1000px
+        }
+        .back-btn{
+            width: 100px;
+            background-color: black;
+            padding: 10px ;
+            border: none;
+            border-radius:20px;
+            color: white;
+            position:fixed;
+            top: 10px;
+            right:10px;
+            text-align: center;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <a class="back-btn" href="../index.html">Home Page</a>
+
+    <h1 style="text-align: center;">Welcome to Card Assignment</h1>
+    <div class="cards">
+
+        <div class="card">
+            <a href="card1/card1.html">Card 1</a>
+        </div>
+        <div class="card">
+            <a href="card2/card2.html">Card 2</a>
+        </div>
+        <div class="card">
+            <a href="card3/card3.html">Card 3</a>
+        </div>
+        <div class="card">
+            <a href="card4/card4.html">Card 4</a>
+        </div>
+    </div>
+</body>
+</html>

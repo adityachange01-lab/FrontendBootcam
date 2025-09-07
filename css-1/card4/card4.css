@@ -1,0 +1,88 @@
+body{
+    background-color: #eee;
+    box-sizing: border-box;
+}
+
+.card4{
+    background-color: white;
+    margin:60px auto;
+    width: 400px;
+    border : 1px solid lightgray;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.logo{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.content{
+    text-align: center;
+}
+
+
+p{
+    font-size: 16px;
+    color: rgb(71, 70, 70);
+    text-align: center;
+}
+
+.card-home-btn{
+    width: 200px;
+    background-color:black;
+    padding: 10px ;
+    border: none;
+    border-radius:20px;
+    color: white;
+    position:fixed;
+    top: 20px;
+    right:20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+.input-field{
+    display: flex;
+    padding : 5px 30px;
+    justify-content: space-between;
+    border : 1px solid rgb(121, 11, 194);
+    border-radius: 12px;
+    width:100%;
+    box-sizing: border-box;
+}
+
+.cvvflex{
+    display: flex;
+    align-items: center;
+    gap : 10px;
+}
+
+
+.cardflex{
+    display: flex;
+    align-items: center;
+    gap : 10px
+}
+
+.continue-btn{
+    width: 100%;
+    background-color: rgb(121, 11, 194);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding : 10px;
+    margin-top:16px;
+    margin-bottom:0px;
+
+}
+
+.footer{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap : 10px;
+    margin-bottom:30px;
+}

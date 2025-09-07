@@ -1,0 +1,66 @@
+body{
+    background-color: #eee;
+    box-sizing: border-box;
+}
+
+.card1{
+    background-color: white;
+    margin:60px auto;
+    width: 400px;
+    border : 1px solid lightgray;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.logo-img{
+    margin: 68px;   /* Is there any other way to make image into center ? */
+    margin-bottom: 0px; /* TO reduce space between Logo & title */
+    margin-top: 10px; /* TO reduce space between Logo & title */
+}
+
+.content{
+    text-align: center;
+}
+
+.title{
+    margin-bottom: 0px; /* TO reduce space between Title & paragraph text */
+}
+.input-field{
+    padding : 16px 30px;
+    border : 1px solid rgb(7, 43, 252);
+    border-radius: 12px;
+    width:100%;
+    box-sizing: border-box;
+}
+
+.continue-btn{
+    width: 100%;
+    background-color: rgb(7, 43, 252);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding : 12px;
+    margin-top:10px;
+    margin-bottom:30px;
+}
+
+.card-home-btn{
+    width: 200px;
+    background-color:black;
+    padding: 10px ;
+    border: none;
+    border-radius:20px;
+    color: white;
+    position:fixed;
+    top: 20px;
+    right:20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Doubts 
+
+1) Is there any better way to make logo at center of card1 class. ? Please check if approach in class2 is correct ?
+2) Can we make input field as size of title without using margin ? Currently I have made it 100% but instead can we make it as same size of title ? 
+
+*/

@@ -1,0 +1,68 @@
+body{
+    background-color: #eee;
+    box-sizing: border-box;
+}
+
+.card3{
+    background-color: white;
+    margin:60px auto;
+    width: 400px;
+    border : 1px solid lightgray;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.logo{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.content{
+    text-align: center;
+}
+
+.input-profile{
+    padding-bottom: 16px;
+    margin-bottom: 0px;
+    background-color: #eee;
+    border-radius : 12px;
+}
+
+.input-img{
+    margin: 16px 0px 0px 16px;
+}
+.input-heading{
+    margin: 0px 0px 0px 30px;
+    display: inline-block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+.arrow-right-icon{
+    margin-left: 60px;
+}
+
+p{
+    font-size: 16px;
+    color: rgb(71, 70, 70);
+    text-align: center;
+}
+
+.card-home-btn{
+    width: 200px;
+    background-color:black;
+    padding: 10px ;
+    border: none;
+    border-radius:20px;
+    color: white;
+    position:fixed;
+    top: 20px;
+    right:20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Doubts 
+
+1) With flexbox we can easily align images & text both horizontally & vertically but without using it do we have any other way ?
+
+*/
